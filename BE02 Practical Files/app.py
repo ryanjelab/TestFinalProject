@@ -2,10 +2,11 @@ from flask import Flask, jsonify, make_response
 
 app = Flask(__name__)
 
+
 businesses =  [
     {
         "id" : 1,
-        "name" : "Pizza Mountain",
+        "name" : "Pizza 2 Mountain",
         "town" : "Coleraine",
         "rating" : 5,
         "reviews" : []  
