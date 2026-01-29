@@ -2,6 +2,7 @@ from flask import Flask, jsonify, make_response
 
 app = Flask(__name__)
 
+
 businesses =  [
     {
         "id" : 1,
